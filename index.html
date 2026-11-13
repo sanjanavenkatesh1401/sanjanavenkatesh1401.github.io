@@ -8,8 +8,8 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -19,12 +19,12 @@
     <nav class="navbar">
 
         <div class="logo">
-            Sanjana Venkatesh
-        </div>
+    <span>Sanjana</span> Venkatesh
+</div>
 
         <ul class="nav-links">
 
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -40,40 +40,43 @@
 
 <!-- ================= HERO ================= -->
 
-/* ================= HERO ================= */
+
 
 <!-- ================= HERO ================= -->
 
-<section class="hero">
+<section class="hero" id="home">
 
     <div class="hero-text">
 
-        <p class="hello">HELLO, I'M</p>
+        <p class="hello">
+            <span class="availability-dot"></span>
+            Exploring opportunities in tech
+        </p>
 
         <h1>
-            Sanjana <br>
-            Venkatesh
+            Hi, I'm <span>Sanjana</span><br>
+            <span>Venkatesh</span>
         </h1>
 
-        <h2>Computer Science Engineering Student</h2>
+        <h2>
+            <span id="typing-text">Aspiring Software Developer</span><span class="typing-cursor">|</span>
+        </h2>
 
         <p class="description">
-
             A Computer Science Engineering student at
             <strong>SRM Institute of Science and Technology</strong>,
             pursuing a parallel
             <strong>BS in Data Science and Applications</strong>
             at <strong>IIT Madras</strong>.
 
-            Passionate about software engineering, artificial intelligence,
-            and building practical solutions through technology.
-
+            Passionate about software development, problem solving,
+            web technologies, and contributing to open source.
         </p>
 
         <div class="hero-buttons">
 
             <a href="#projects" class="btn">
-                View Projects
+                View My Work
             </a>
 
             <a href="#contact" class="btn-outline">
@@ -82,384 +85,620 @@
 
         </div>
 
+        <div class="hero-socials">
+
+            <span>Connect with me</span>
+
+            <a href="https://github.com/sanjanavenkatesh1401"
+               target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/sanjana-v-36978841b"
+               target="_blank" rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-stats">
+
+        <div class="stat-card">
+            <h3>SRMIST</h3>
+            <p>B.Tech Computer Science Engineering</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>IIT Madras</h3>
+            <p>BS Data Science and Applications</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Development</h3>
+            <p>Building practical software projects</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Problem Solving</h3>
+            <p>Data Structures, Algorithms and Debugging</p>
+        </div>
+    
     </div>
 
 </section>
-}
+
+<!-- ================= ABOUT ================= -->
+
+
+
 <!-- ================= ABOUT ================= -->
 
 <section id="about" class="about">
 
+    <div class="about-heading">
+        <span>01.</span>
+        <h2>About</h2>
+        <div class="heading-line"></div>
+    </div>
+
     <div class="about-container">
 
-        <div class="about-image">
-
-            <div class="developer-card">
-
-                <h3>Developer Profile</h3>
-
-                <div class="developer-item">
-                    💻 Building practical software
-                </div>
-
-                <div class="developer-item">
-                    🤖 Exploring AI & Machine Learning
-                </div>
-
-                <div class="developer-item">
-                    🧩 Solving problems through code
-                </div>
-
-                <div class="developer-item">
-                    📚 Learning new technologies
-                </div>
-
-                <div class="developer-item">
-                    🚀 Open to internships & collaborations
-                </div>
-
-            </div>
-
-        </div>
+        <!-- LEFT SIDE: ABOUT CONTENT -->
 
         <div class="about-content">
 
-            <h2>About Me</h2>
-
             <p>
-
-                I'm a first-year Computer Science Engineering student
-                at <strong>SRM Institute of Science and Technology</strong>,
-                pursuing a parallel BS in
-                <strong>Data Science and Applications</strong>
+                I'm a Computer Science Engineering student at
+                <strong>SRM Institute of Science and Technology</strong>,
+                pursuing a parallel
+                <strong>BS in Data Science and Applications</strong>
                 at <strong>IIT Madras</strong>.
-
             </p>
 
             <p>
-
-                I enjoy creating software that solves real-world
-                problems. I'm currently focused on Software
-                Development, Data Structures & Algorithms,
-                Artificial Intelligence and Full Stack Development.
-
+                I'm interested in developing practical software
+                solutions and exploring technologies across
+                Software Development, Data Structures & Algorithms,
+                Artificial Intelligence, and Full Stack Development.
             </p>
 
             <p>
-
-                My goal is to become a Software Engineer
-                who builds scalable, intelligent applications
-                while continuously learning new technologies.
-
+                I focus on strengthening my technical skills
+                through hands-on projects, continuous learning,
+                and collaborative development.
             </p>
+
+            <p>
+                My goal is to become a Software Engineer who builds
+                reliable, scalable applications and contributes
+                to meaningful technology projects.
+            </p>
+            <a href="resume.pdf" class="resume-btn" download>
+    Download Resume <span>↓</span>
+</a>
+
+        </div>
+        
+        <!-- RIGHT SIDE: DEVELOPER PROFILE -->
+
+        <div class="about-profile">
+
+            <div class="developer-item">
+                <div class="about-icon">💻</div>
+                <h3>Building Practical Software</h3>
+                <p>Creating software that solves real-world problems.</p>
+            </div>
+
+            <div class="developer-item">
+                <div class="about-icon">🤖</div>
+                <h3>Exploring AI & Machine Learning</h3>
+                <p>Exploring intelligent technologies and their applications.</p>
+            </div>
+
+            <div class="developer-item">
+                <div class="about-icon">🧩</div>
+                <h3>Solving Problems Through Code</h3>
+                <p>Strengthening problem-solving and algorithmic thinking.</p>
+            </div>
+
+            <div class="developer-item">
+                <div class="about-icon">📚</div>
+                <h3>Learning New Technologies</h3>
+                <p>Continuously expanding technical knowledge and skills.</p>
+            </div>
+
+            <div class="developer-item">
+                <div class="about-icon">🚀</div>
+                <h3>Open to Internships & Collaborations</h3>
+                <p>Interested in learning, contributing and working with teams.</p>
+            </div>
 
         </div>
 
     </div>
 
 </section>
+
 <!-- ================= EDUCATION ================= -->
 
+
 <section id="education" class="education">
+    <div class="education-heading">
+        <span>02.</span>
+        <h2>Education</h2>
+        <div class="heading-line"></div>
+    </div>
 
-    <h2 class="section-title">Education</h2>
-
-    <div class="education-container">
+    <div class="education-timeline">
 
         <!-- SRM -->
-
-        <div class="education-card">
-
-            <div class="education-icon">🎓</div>
-
-            <div class="education-info">
-
-                <h3>SRM Institute of Science and Technology, Ramapuram</h3>
-
-                <h4>B.Tech – Computer Science and Engineering</h4>
-
-                <p>CGPA: <strong>8.50</strong></p>
-
+        <div class="education-item">
+            <div class="education-date">
+                <span>2025 – 2029 (Expected)</span>
             </div>
 
+            <div class="timeline-marker"></div>
+
+            <div class="education-card">
+                <h3>B.Tech - Computer Science and Engineering</h3>
+                <a href="https://www.srmist.edu.in/" target="_blank">
+                    SRM Institute of Science and Technology ↗
+                </a>
+                <p>
+                    Pursuing undergraduate studies in Computer Science
+                    and Engineering, building a strong foundation in
+                    programming, software development, and computer science.
+                </p>
+
+                <div class="education-highlights">
+                    <span>CGPA: 8.5</span>
+                    <span>Computer Science</span>
+                    <span>Undergraduate</span>
+                </div>
+            </div>
         </div>
 
-        <!-- IIT Madras -->
-
-        <div class="education-card">
-
-            <div class="education-icon">📚</div>
-
-            <div class="education-info">
-
-                <h3>IIT Madras</h3>
-
-                <h4>BS in Data Science and Applications</h4>
-
-                <p>Currently Pursuing</p>
-
+        <!-- IIT MADRAS -->
+        <div class="education-item reverse">
+            <div class="education-date">
+                <span>Foundation Level</span>
             </div>
 
+            <div class="timeline-marker"></div>
+
+            <div class="education-card">
+                <h3>BS - Data Science and Applications</h3>
+                <a href="https://study.iitm.ac.in/ds/" target="_blank">
+                    Indian Institute of Technology Madras ↗
+                </a>
+                <p>
+                    Pursuing the IIT Madras online BS programme,
+                    developing knowledge in mathematics, statistics,
+                    computational thinking, and data science.
+                </p>
+
+                <div class="education-highlights">
+                    <span>Data Science</span>
+                    <span>Statistics</span>
+                    <span>Foundation Level</span>
+                </div>
+            </div>
         </div>
 
-        <!-- Class XII -->
-
-        <div class="education-card">
-
-            <div class="education-icon">🏫</div>
-
-            <div class="education-info">
-
-                <h3>Good Shepherd Matriculation Higher Secondary School</h3>
-
-                <h4>Higher Secondary (Class XII)</h4>
-
-                <p>Percentage: <strong>83.17%</strong></p>
-
+        <!-- SCHOOL -->
+        <div class="education-item">
+            <div class="education-date">
+                <span>School Education</span>
             </div>
 
-        </div>
+            <div class="timeline-marker"></div>
 
-        <!-- Class X -->
+            <div class="education-card">
+                <h3>Higher Secondary Education</h3>
+                <a href="#" class="school-name">
+                    Good Shepherd Matriculation Higher Secondary School
+                </a>
+                <p>
+                    Completed higher secondary and secondary education,
+                    building a foundation for further studies.
+                </p>
 
-        <div class="education-card">
-
-            <div class="education-icon">🏫</div>
-
-            <div class="education-info">
-
-                <h3>Good Shepherd Matriculation Higher Secondary School</h3>
-
-                <h4>Secondary School (Class X)</h4>
-
-                <p>Percentage: <strong>83.20%</strong></p>
-
+                <div class="education-highlights">
+                    <span>Class 12: 83.17%</span>
+                    <span>Class 10: 83.2%</span>
+                </div>
             </div>
-
         </div>
 
     </div>
-
 </section>
 
-<!-- ================= SKILLS ================= -->
+
+
+
+<<!-- ================= SKILLS ================= -->
+
 
 <!-- ================= SKILLS ================= -->
 
 <section id="skills" class="skills">
 
-    <h2 class="section-title">Skills</h2>
+    <div class="skills-heading">
+        <span>04.</span>
+        <h2>Skills & Technologies</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <p class="skills-subtitle">
+        Technologies and concepts I'm currently learning and working with.
+    </p>
+
+    <!-- CATEGORY FILTERS -->
+
+    <div class="skills-filters">
+
+        <button class="filter-btn active" data-filter="programming">
+            &lt;/&gt; Programming
+        </button>
+
+        <button class="filter-btn" data-filter="concepts">
+            🧠 Core Concepts
+        </button>
+
+        <button class="filter-btn" data-filter="tools">
+            🛠 Tools
+        </button>
+
+        <button class="filter-btn" data-filter="interests">
+            🚀 Areas of Interest
+        </button>
+
+    </div>
+
+    <!-- SKILLS GRID -->
 
     <div class="skills-grid">
 
-        <!-- Languages -->
+        <!-- PROGRAMMING LANGUAGES -->
 
-        <div class="skill-card">
-
-            <h3>💻 Languages</h3>
-
-            <ul>
-
-                <li>Python</li>
-
-                <li>Java</li>
-
-                <li>C++</li>
-
-            </ul>
-
+        <div class="skill-item" data-category="programming">
+            <div class="skill-icon"></div>
+            <h3>Python</h3>
         </div>
 
-        <!-- Core Concepts -->
-
-        <div class="skill-card">
-
-            <h3>🧠 Core Concepts</h3>
-
-            <ul>
-
-                <li>Data Structures & Algorithms</li>
-
-                <li>Object-Oriented Programming</li>
-
-                <li>Problem Solving</li>
-
-            </ul>
-
+        <div class="skill-item" data-category="programming">
+            <div class="skill-icon"></div>
+            <h3>Java</h3>
         </div>
 
-        <!-- Tools -->
-
-        <div class="skill-card">
-
-            <h3>🛠 Tools</h3>
-
-            <ul>
-
-                <li>GitHub</li>
-
-                <li>VS Code</li>
-
-            </ul>
-
+        <div class="skill-item" data-category="programming">
+            <div class="skill-icon"></div>
+            <h3>C</h3>
         </div>
 
-        <!-- Areas of Interest -->
+        <div class="skill-item" data-category="programming">
+            <div class="skill-icon"></div>
+            <h3>C++</h3>
+        </div>
 
-        <div class="skill-card">
+        <div class="skill-item" data-category="programming">
+            <div class="skill-icon"></div>
+            <h3>JavaScript</h3>
+        </div>
 
-            <h3>🚀 Areas of Interest</h3>
 
-            <ul>
+<div class="skill-item" data-category="programming">
+    <div class="skill-icon"></div>
+    <h3>React</h3>
+</div>
 
-                <li>Software Development</li>
+<div class="skill-item" data-category="programming">
+    <div class="skill-icon"></div>
+    <h3>HTML</h3>
+</div>
 
-                <li>Full Stack Development</li>
+<div class="skill-item" data-category="programming">
+    <div class="skill-icon"></div>
+    <h3>CSS</h3>
+</div>
 
-                <li>Data Science</li>
+<div class="skill-item" data-category="programming">
+    <div class="skill-icon"></div>
+    <h3>Software Testing</h3>
+</div>
 
-                <li>Artificial Intelligence</li>
 
-            </ul>
+        <!-- CORE CONCEPTS -->
 
+        <div class="skill-item" data-category="concepts">
+            <div class="skill-icon"></div>
+            <h3>Data Structures & Algorithms</h3>
+        </div>
+
+        <div class="skill-item" data-category="concepts">
+            <div class="skill-icon"></div>
+            <h3>Object-Oriented Programming</h3>
+        </div>
+
+        <div class="skill-item" data-category="concepts">
+            <div class="skill-icon"></div>
+            <h3>Problem Solving</h3>
+        </div>
+
+        <div class="skill-item" data-category="concepts">
+            <div class="skill-icon"></div>
+            <h3>Debugging</h3>
+        </div>
+
+        <div class="skill-item" data-category="concepts">
+            <div class="skill-icon"></div>
+            <h3>REST APIs</h3>
+        </div>
+
+        <!-- TOOLS -->
+
+        <div class="skill-item" data-category="tools">
+            <div class="skill-icon">🐙</div>
+            <h3>GitHub</h3>
+        </div>
+
+        <div class="skill-item" data-category="tools">
+            <div class="skill-icon">💻</div>
+            <h3>VS Code</h3>
+        </div>
+
+        <!-- AREAS OF INTEREST -->
+
+        <div class="skill-item" data-category="interests">
+            <div class="skill-icon">⚙️</div>
+            <h3>Software Development</h3>
+        </div>
+
+        <div class="skill-item" data-category="interests">
+            <div class="skill-icon">🌐</div>
+            <h3>Full Stack Development</h3>
+        </div>
+
+        <div class="skill-item" data-category="interests">
+            <div class="skill-icon">📊</div>
+            <h3>Data Science & Analytics</h3>
+        </div>
+
+        <div class="skill-item" data-category="interests">
+            <div class="skill-icon">🤖</div>
+            <h3>Artificial Intelligence & Machine Learning</h3>
         </div>
 
     </div>
 
 </section>
+
 <!-- ================= PROJECTS ================= -->
 
+
 <section id="projects" class="projects">
+    <div class="projects-heading">
+        <span>03.</span>
+        <h2>Featured Projects</h2>
+        <div class="heading-line"></div>
+    </div>
 
-    <h2 class="section-title">Projects</h2>
+    <p class="projects-intro">
+        A selection of projects I've worked on, combining software
+        development, problem solving, and practical applications.
+    </p>
 
-    <div class="projects-grid">
+    <div class="featured-project">
 
-        <div class="project-card">
-
-            <h3>📊 Expense Tracker</h3>
-
-            <p class="tech-stack">HTML • CSS • JavaScript</p>
-
-            <p class="project-description">
-                A responsive expense tracking application that helps users manage
-                daily expenses with real-time calculations and local storage.
-            </p>
-
-            <div class="project-status completed">
-                ✔ Completed
+        <!-- MERGEGUARD -->
+        <div class="project-preview mergeguard-preview">
+            <div class="preview-topbar">
+                <span></span><span></span><span></span>
+                <p>MERGEGUARD / ANALYSIS</p>
             </div>
 
+            <div class="mergeguard-content">
+                <div class="preview-label">PULL REQUEST ANALYZER</div>
+                <h3>MergeGuard</h3>
+                <p>Understand code changes. Detect potential risks.</p>
+
+                <div class="analysis-card">
+                    <span>CHANGE ANALYSIS</span>
+                    <strong>Code impact detected</strong>
+                    <div class="analysis-line"></div>
+                    <div class="analysis-line short"></div>
+                </div>
+
+                <div class="analysis-tags">
+                    <span>Dependency Analysis</span>
+                    <span>Risk Detection</span>
+                    <span>Test Suggestions</span>
+                </div>
+            </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-info">
+            <span class="project-label">Featured Project · In Development</span>
+            <h3>MergeGuard</h3>
 
-            <h3>📄 Resume Analyzer</h3>
+            <div class="project-description">
+                An intelligent pull request risk analyzer that examines
+                code changes, identifies potentially affected functions,
+                and helps developers understand the impact of their
+                modifications.
 
-            <p class="tech-stack">Python • Streamlit • NLP</p>
+                <br><br>
 
-            <p class="project-description">
-                AI-powered resume analyzer that compares resumes against job
-                descriptions, provides ATS scores, and suggests improvements.
-            </p>
-
-            <div class="project-status progress">
-                🚧 Currently Developing
+                Developing a dependency analysis and test recommendation
+                engine to help detect potential regressions before code
+                is merged.
             </div>
 
-        </div>
-
-        <div class="project-card">
-
-            <h3>🤖 AI Chatbot</h3>
-
-            <p class="tech-stack">Python • Streamlit</p>
-
-            <p class="project-description">
-                Intelligent chatbot built using modern AI technologies with a
-                clean conversational interface.
-            </p>
-
-            <div class="project-status upcoming">
-                📌 Planned Project
+            <div class="project-tech">
+                <span>Python</span>
+                <span>Git</span>
+                <span>AST</span>
+                <span>Static Analysis</span>
             </div>
-
-        </div>
-
-        <div class="project-card">
-
-            <h3>💡 Future Project</h3>
-
-            <p class="tech-stack">Coming Soon</p>
-
-            <p class="project-description">
-                Another software engineering project will be added here as I
-                continue learning and building.
-            </p>
-
-            <div class="project-status upcoming">
-                📌 Upcoming
-            </div>
-
         </div>
 
     </div>
 
+    <div class="featured-project reverse">
+
+        <!-- SMART HELMET -->
+        <div class="project-preview helmet-preview">
+            <div class="preview-topbar">
+                <span></span><span></span><span></span>
+                <p>SMART HELMET / SYSTEM</p>
+            </div>
+
+            <div class="helmet-content">
+                <div class="helmet-symbol">⌁</div>
+                <div class="preview-label">IOT SAFETY SYSTEM</div>
+                <h3>Smart Helmet</h3>
+                <p>Ride safe. Start only when protected.</p>
+
+                <div class="helmet-status">
+                    <div>
+                        <span>HELMET STATUS</span>
+                        <strong>Detected</strong>
+                    </div>
+                    <div>
+                        <span>CHIN STRAP</span>
+                        <strong>Secured</strong>
+                    </div>
+                    <div>
+                        <span>BIKE IGNITION</span>
+                        <strong class="ready">Enabled</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-info">
+            <span class="project-label">Featured Project · Completed</span>
+            <h3>Smart Helmet with Bike Ignition Control</h3>
+
+            <div class="project-description">
+                Developed an IoT-based smart helmet system that enables
+                bike ignition only when the rider wears the helmet
+                properly and securely fastens the chin strap.
+
+                <br><br>
+
+                Integrated helmet-to-bike communication to encourage
+                safe riding practices and reduce accidents caused by
+                negligence.
+            </div>
+
+            <div class="project-tech">
+                <span>IoT</span>
+                <span>Embedded Systems</span>
+                <span>Sensors</span>
+                <span>Bike Safety</span>
+            </div>
+        </div>
+
+    </div>
 </section>
+
+
+<!-- ================= CERTIFICATES ================= -->
+
+<!-- ================= CERTIFICATES ================= -->
+
 
 <!-- ================= CERTIFICATES ================= -->
 
 <section id="certificates" class="certificates">
 
-    <h2 class="section-title">Certificates</h2>
+    <div class="certificates-heading">
+        <span>06.</span>
+        <h2>Certificates</h2>
+        <div class="heading-line"></div>
+    </div>
 
-    <div class="certificates-grid">
+    <div class="certificates-carousel">
 
-        <!-- IBM Certificate -->
+        <div class="certificates-track" id="certificatesTrack">
 
-        <div class="certificate-card">
+            <!-- CERTIFICATE 1 -->
 
-            <h3>🤖 Getting Started with Artificial Intelligence</h3>
+            <div class="certificate-card">
 
-            <p class="certificate-org">IBM SkillsBuild</p>
+                <h3>Getting Started with Artificial Intelligence</h3>
 
-            <p class="certificate-date">
-                Issued: January 2026
-            </p>
+                <p class="certificate-org">IBM SkillsBuild</p>
 
-            <a href="https://drive.google.com/file/d/1jomDXlRr05q4Mdcvp29KwRXX3BxMHP9q/view?usp=drive_link"
-               target="_blank"
-               class="certificate-btn">
-                View Certificate
-            </a>
+                <p class="certificate-date">
+                    
+                </p>
+
+                <a href="https://drive.google.com/file/d/1jomDXlRr05q4Mdcvp29KwRXX3BxMHP9q/view?usp=drive_link"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="certificate-btn">
+                    View Certificate ↗
+                </a>
+
+            </div>
+
+            <!-- CERTIFICATE 2 -->
+
+            <div class="certificate-card">
+
+                <h3>Introduction to Hardware and Operating Systems</h3>
+
+                <p class="certificate-org">IBM</p>
+
+                <p class="certificate-date">
+                    Certificate of Completion
+                </p>
+
+                <a href="https://drive.google.com/file/d/1eeg6m2NwbLWTPoawe4jMbh0OdHm61OAY/view?usp=sharing"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="certificate-btn">
+                    View Certificate ↗
+                </a>
+
+            </div>
+
+            <!-- CERTIFICATE 3 -->
+
+            <div class="certificate-card">
+
+                <h3>Python Programming Fundamentals</h3>
+
+                <p class="certificate-org">Microsoft</p>
+
+                <p class="certificate-date">
+                    Certificate of Completion
+                </p>
+
+                <a href="https://drive.google.com/file/d/11-rMIu6CoK9uelYDl8J7gL6kPSKgbWNZ/view?usp=drive_link"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="certificate-btn">
+                    View Certificate ↗
+                </a>
+
+            </div>
 
         </div>
 
-        <!-- Future Certificate 1 -->
+        <div class="certificate-navigation">
 
-        <div class="certificate-card">
+            <button id="certificatePrev" aria-label="Previous certificates">
+                ‹
+            </button>
 
-            <h3>📜 Future Certificate</h3>
-
-            <p class="certificate-org">Coming Soon</p>
-
-            <p class="certificate-date">
-                This space is reserved for upcoming certifications.
-            </p>
-
-        </div>
-
-        <!-- Future Certificate 2 -->
-
-        <div class="certificate-card">
-
-            <h3>📜 Future Certificate</h3>
-
-            <p class="certificate-org">Coming Soon</p>
-
-            <p class="certificate-date">
-                This space is reserved for upcoming certifications.
-            </p>
+            <button id="certificateNext" aria-label="Next certificates">
+                ›
+            </button>
 
         </div>
 
@@ -469,68 +708,50 @@
 
 <!-- ================= CONTACT ================= -->
 
-<!-- ================= CONTACT ================= -->
 
 <section id="contact" class="contact">
-
-    <h2 class="section-title">Get In Touch</h2>
-
-    <p class="contact-text">
-        I'm always open to internship opportunities, collaborations, and conversations
-        about software development, AI, and technology. Feel free to connect with me!
-    </p>
-
-    <div class="contact-grid">
-
-        <!-- Email -->
-
-        <a href="mailto:sanjanavenkatesh140108@gmail.com" class="contact-card">
-
-            <h3>📧 Email</h3>
-
-            <p>sanjanavenkatesh140108@gmail.com</p>
-
-        </a>
-
-        <!-- GitHub -->
-
-        <a href="https://github.com/sanjanavenkatesh1401"
-           target="_blank"
-           class="contact-card">
-
-            <h3>💻 GitHub</h3>
-
-            <p>@sanjanavenkatesh1401</p>
-
-        </a>
-
-        <!-- LinkedIn -->
-
-        <a href="https://www.linkedin.com/in/sanjana-venkatesh-a883a2415"
-           target="_blank"
-           class="contact-card">
-
-            <h3>💼 LinkedIn</h3>
-
-            <p>Sanjana Venkatesh</p>
-
-        </a>
-
-        <!-- Resume -->
-
-        <a href="resume/Sanjana_Venkatesh_Resume.pdf"
-           target="_blank"
-           class="contact-card">
-
-            <h3>📄 Resume</h3>
-
-            <p>Download Resume</p>
-
-        </a>
-
+    <div class="contact-heading">
+        <span>07.</span>
+        <h2>Get In Touch</h2>
+        <div class="heading-line"></div>
     </div>
 
+    <div class="contact-content">
+        <h3>Let's build something amazing together</h3>
+
+        <p class="contact-description">
+            I'm always open to connecting with fellow developers,
+            exploring opportunities, and collaborating on interesting
+            projects. Feel free to reach out!
+        </p>
+
+        <div class="contact-details">
+            <a href="mailto:sanjanav140108@gmail.com" class="contact-card">
+                <div class="contact-icon">✉</div>
+                <div>
+                    <span>Email me at</span>
+                    <strong>sanjanav140108@gmail.com</strong>
+                </div>
+            </a>
+
+            <div class="contact-card">
+                <div class="contact-icon">⌖</div>
+                <div>
+                    <span>Based in</span>
+                    <strong>Chennai, India</strong>
+                </div>
+            </div>
+        </div>
+
+        <p class="social-heading">Connect with me</p>
+
+        <div class="social-links">
+            <a href="YOUR_GITHUB_URL" target="_blank" aria-label="GitHub">GH</a>
+            <a href="YOUR_LINKEDIN_URL" target="_blank" aria-label="LinkedIn">in</a>
+        </div>
+    </div>
 </section>
+
 
 <!-- ================= FOOTER ================= -->
 
@@ -545,3 +766,9 @@
     </p>
 
 </footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
